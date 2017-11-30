@@ -4,7 +4,14 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
 
-Games:
-
-[My first game!](games/myFirstGame/index.html)
-
+<ul>
+  {% for file in site.static_files %}
+    {% if file.path contains 'index.html' %}
+      <li style="list-style: none; float: left; margin: 20px 30px;">
+        <a href="{{ file.path }}">
+          <img width="400px" src="{{ file.path | replace: 'index.html', 'fachada.png' }}" />
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
