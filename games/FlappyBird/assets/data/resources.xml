@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <background atlasID="0" desc="" durations="100" dx="-10.0" dy="-0.0" height="480" id="4" name="Background" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="5" loop="true" name="flap" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="0" id="0" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Flappy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="true" id="4">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="Voando"/>
+                <prop id="2" list="0" val="Morto"/>
+            </s>
+            <s enabled="true" id="6">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0.5"/>
+                <prop id="2" list="0" val="0.5"/>
+                <prop id="3" list="0" val="Fade"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="40" id="1" name="Flappy" shared="false" width="56">
+        <anim across="2" down="2" durations="100,100,100" height="80" id="0" loop="true" name="Voando" numframes="3" originx="28" originy="20" sync="false" version="2" width="112">
+            <poly data="4,0,0,56,0,56,40,0,40" density="0.1" fric="0.2" gid="-1000" id="0" name="Voando" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="40" id="1" loop="true" name="Morto" numframes="1" originx="28" originy="20" sync="false" version="2" width="56">
+            <poly data="4,0,0,56,0,56,40,0,40" density="0.1" fric="0.2" gid="-1000" id="0" name="Morto" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="4" id="2" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Pipe" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="4">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="788" id="3" name="Pipe" shared="false" width="96">
+        <anim across="1" down="1" durations="100" height="788" id="0" loop="true" name="Pipe" numframes="1" originx="48" originy="394" sync="false" version="2" width="96">
+            <poly data="4,8,0,88,0,88,325,8,325" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,8,455,88,455,88,790,8,790" density="0.1" fric="0.2" gid="-1000" id="1" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="6" loop="true" name="smack" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+</pack>

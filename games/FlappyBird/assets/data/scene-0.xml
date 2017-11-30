@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="2" extheight="544" extwidth="864" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="800">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Background" opacity="100" order="1" rid="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="4" id="2" name="Pipe 1" sx="1.0" sy="1.0" x="685" y="-162" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="4" id="2" name="Pipe 2" sx="1.0" sy="1.0" x="444" y="-103" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="0" id="0" name="Flappy 3" sx="1.0" sy="1.0" x="7" y="200" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>
