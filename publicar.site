@@ -1,0 +1,7 @@
+#! /bin/bash
+
+pushd ~/code/site
+  git add .
+  git commit -am"Adding all files and publishing (via script)"
+  git push origin master
+popd
